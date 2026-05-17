@@ -208,6 +208,12 @@ h3 {
   background: rgba(255, 253, 247, 0.7);
 }
 
+.button.whatsapp {
+  color: #fffaf0;
+  background: #247c55;
+  box-shadow: 0 16px 34px rgba(36, 124, 85, 0.2);
+}
+
 .button.ghost.light {
   color: #fffaf0;
   border-color: rgba(255, 250, 240, 0.36);
@@ -331,6 +337,25 @@ h3 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 18px;
+}
+
+.soft-cta {
+  margin-top: 18px;
+  padding: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  border: 1px solid rgba(36, 124, 85, 0.18);
+  border-radius: 28px;
+  background: rgba(238, 246, 233, 0.72);
+}
+
+.soft-cta p {
+  margin: 0;
+  color: rgba(38, 50, 56, 0.78);
+  font-weight: 800;
+  line-height: 1.55;
 }
 
 .feature-card,
@@ -496,6 +521,11 @@ h3 {
   .feature-grid,
   .kit-list {
     grid-template-columns: 1fr;
+  }
+
+  .soft-cta {
+    align-items: flex-start;
+    flex-direction: column;
   }
 
   .hero-card {
